@@ -32,7 +32,8 @@ We believe if there are more Clojure developers in the world, more material valu
 - Learners are encouraged to blog or Tweet about their experience learning Clojure, so as to get more people interested in the joy of Clojure programming.
 - Learners are encouraged to create and refine Clojure learning material.
   - Material could be appended to the current markdown file ([example](https://github.com/aphyr/distsys-class)). This content would evolve, each generation adding and refining their own learnings. 
-  - Material could be learners making their own Clojure Koans for future learners. We've created a #koans channel in our Discord for this purpose.
+  - Material could be learners making their own Clojure Koans for future learners. 
+  - Material could be video content showing examples of partner learning exercises.
   - Material could be learning maps and guides such as [Onboarding for new Clojurians](https://www.notion.so/athensresearch/Onboarding-for-New-Clojurians-b34b38f30902448cae68afffa02425c1).
   - Ultimately, everyone learns differently. A plurality of content that hopefully evolves and builds off of other resources will support the unique learning styles of this world.
 - Learners, after they have sufficiently developed their Clojure-fu are strongly encouraged to become Mentors for the next generations of Learners.
@@ -48,50 +49,13 @@ Questions come and go. Libraries and side-projects get abandoned. The flux of pe
 
 As a ClojureFam mentor, you have the chance to connect personally to motivated programmers, who are learning Clojure primarily to contribute to Athens.
 
-If you weren't aware, Roam Research is a note-taking app for "networked thought", built with Clojurescript and Datascript. It is currently the hottest startup in Silicon Valley. Because of scalability issues, they closed their beta, effectively leaving tens of thousands of users eagerly waiting outside the gates. Athens is an open-source version that is inspired by Roam.
+If you weren't aware, Roam Research is a note-taking app for "networked thought", built with Clojurescript and Datascript. It is currently the hottest startup in Silicon Valley. Because of scalability issues, they closed their beta, effectively leaving tens of thousands of users eagerly waiting outside the gates. Athens is an open-source project that is inspired by Roam.
 
-The people using Roam and Athens are not random people. The users of these apps are hungry learners and auto-didacts who want to create and share knowledge. Many have non-trivial programming experience and work at top tier startups and corporations in Silicon Valley. They simply haven't used Clojure before. This is all to say that ClojureFam could be a great recruiting pipeline for your company :)
-
-# Clojure Learners
-
-Note: This is **not** an exhaustive list.
-
-## clement
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FEFKDUTZDAd.png?alt=media&token=2a3ec642-4dc3-43de-8f35-f0a773f3cdab)
-
-## jreinaldo
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FxGbiln7YKp.png?alt=media&token=b221ad24-2639-4557-ba2b-6836033e4bd1)
-
-## lei2gh
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FEDPTductDn.png?alt=media&token=c281c7fd-e6e3-41af-88d0-5360d33029f3)
-
-## nathan
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FoMnTj34Z73.png?alt=media&token=b6a2632d-3877-44da-aafd-b361b36ece6d)
-
-## persnicketypear
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FAQUqGGQGs4.png?alt=media&token=b636e6ad-4fe1-49de-83a2-12f4bfbaf117)
-
-## anshbansal
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2F5G_5rmi9gb.png?alt=media&token=bb27b2ee-0202-4727-a6dc-17c8bff456a3)
-
-## bardia
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FuPsEa8Delx.png?alt=media&token=76cfbe05-77a5-43b3-ad07-38d0ae3d8b92)
-
-## gunar
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FP8C8-hu1iV.png?alt=media&token=2c9de1ee-0509-41cb-82b0-143b1b68be55)
-
-## joel
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FCrifkZuJlB.png?alt=media&token=4993dcd4-4d53-4712-9dbc-3690e081edfa)
-
-## deftrade
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FKrtQLx5xdq.png?alt=media&token=e4aff8f7-49c6-4484-bdc2-7f14ee4d8f31)
-
-## forrest
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fego%2F98hIDjEo3I.png?alt=media&token=52ca3a88-a43f-4a7c-895a-5316a588c7af)
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2FMFsw2TJy76.png?alt=media&token=9b5c86bf-aab4-431a-b7e3-798f65e214c8)
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fego%2FgzqIzIkiD3.png?alt=media&token=b3445e14-62b0-4820-bd95-fc0858c49111)
+The people using these platforms and technologies are not random people. The users of these apps are hungry learners and auto-didacts who want to create and share knowledge. Many have non-trivial programming experience and work at top tier startups and corporations in Silicon Valley. They simply haven't used Clojure before. This is all to say that ClojureFam could be a great recruiting pipeline for your company :)
 
 # Clojure Mentors
+
+Note: This is **not** an exhaustive list.
 
 ## jeroen
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjefftang%2F3dRv3Dr0fr.png?alt=media&token=02b2da5f-5b21-48ca-b1ba-0468c2983c4b)
@@ -108,7 +72,7 @@ Note: This is **not** an exhaustive list.
 # Sign Up
 
 ## Mentors
-https://athensresearch.typeform.com/to/TcGMWl
+https://athensresearch.typeform.com/to/R23MVd
 
 ## Learners
-https://athensresearch.typeform.com/to/P486SB
+https://athensresearch.typeform.com/to/zee53K

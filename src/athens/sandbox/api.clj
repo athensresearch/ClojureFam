@@ -19,10 +19,7 @@
 
 (defn submit-current! [solution])
 
-(defn skip-current!)
-
-(defn )
-
+(defn skip-current! [])
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Work with any problem on any track

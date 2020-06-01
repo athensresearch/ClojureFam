@@ -1,3 +1,7 @@
+# ClojureFam
+clojurefam-user.db
+
+# Standard Clojure ignore patterns
 /target
 /classes
 /checkouts

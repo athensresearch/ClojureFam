@@ -26,4 +26,4 @@ Accepted at 2020-05-30 (@nthd3gr33, @bardia, @teodorlu)
 
 - When developing learning resources, we seek to use this repository over other
   resources.
-- The _Onboarding for new Clojurians_ content needs to be migrated.
+- Reach "knowledge parity" with the _Onboarding for new Clojurians_  document: the ClojureFam repo should be self-sufficient

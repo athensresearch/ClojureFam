@@ -22,9 +22,9 @@ We believe if there are more Clojure developers in the world, more material valu
 
 # Program Overview
 
-- "Learners" — those who have minimal Clojure experience — will partner with each other. For the first iterations, Learners are expected to have at least one synchronous video call / pair programming session per week with their partner.
-- "Mentors" — those who have experience programming Clojure and mentoring others — will be placed with a pair of Learners. Mentors are expected to answer technical and professional questions from the partners asynchronously.
-- "Curriculum" — the first cohorts of this program will follow the resources and material in [Onboarding for New Clojurians](https://www.notion.so/Onboarding-for-New-Clojurians-b34b38f30902448cae68afffa02425c1). The goals are:
+- **Learners** — those who have minimal Clojure experience — will partner with each other. For the first iterations, Learners are expected to have at least one synchronous video call / pair programming session per week with their partner.
+- **Mentors** — those who have experience programming Clojure and mentoring others — will be placed with a pair of Learners. Mentors are expected to answer technical and professional questions from the partners asynchronously.
+- **Curriculum** — the first cohorts of this program will follow the resources and material in [Onboarding for New Clojurians](https://www.notion.so/Onboarding-for-New-Clojurians-b34b38f30902448cae68afffa02425c1). The goals are:
     - Completing 100 problems on 4clojure.
     - Working through Clojure from the Ground Up, completing exercises.
     - Working through Brave Clojure, completing exercises.

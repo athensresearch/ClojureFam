@@ -72,3 +72,33 @@
 (test #'map-product)
 ;; => :ok
 
+
+;; keys
+
+(keys {:a 1 :b 2})
+;; => (:a :b)
+
+;; Takes a map as an argument and returns a lazy sequence of the map's keys
+;; Comes out in the same order as if you called `(seq map)`
+
+;; Returns `nil` if the map provided is empty or `nil` is provided as an argument
+
+;; Exercises
+
+(def keys-map {"Learning" 1
+               "Clojure"  2
+               "is"       3
+               "so"       4
+               "much"     5
+               "fun"      6})
+
+(defn key-sentence
+  {:test #(do
+            (assert (= "Learning Clojure is so much fun!!!" (key-sentence keys-map))))}
+  [m]
+  (str (clojure.string/join " " (keys keys-map)) "!!!"))
+
+
+(test #'key-sentence)
+;; => :ok
+

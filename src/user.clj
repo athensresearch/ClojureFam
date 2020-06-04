@@ -1,2 +1,4 @@
-(ns user
-  (:require [athens.sandbox.api :as athens]))
+(ns user)
+
+(defn go []
+  (:require '[athens.sandbox.api :as athens]))

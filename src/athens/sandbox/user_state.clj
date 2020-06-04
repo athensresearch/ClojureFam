@@ -1,4 +1,4 @@
-(ns athens.sandbox.user-progress
+(ns athens.sandbox.user-state
   (:require [spicerack.core :as db]))
 
 ;; Statefully keep track of the user's progress
@@ -17,6 +17,19 @@
           (doall result)
           result)))))
 
+(defn set-current-track! [track]
+  (fmap (fn [db]
+          (db/assoc! db :current {:track track}))))
+
+(defn current []
+  (fmap (fn [db]
+          (get db :current))))
+
+(defn set-current-task! [task]
+  (fmap (fn [db]
+          (db/assoc! db :current
+                     (assoc (current) :task task)))))
+
 (comment
   (fmap keys)
   (fmap (fn [db]
@@ -33,3 +46,5 @@
 (comment
   :clojurefam.datascript/query-1 {:solution '(...) :done true}
   )
+
+;; I need a deftask or something ...

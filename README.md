@@ -2,12 +2,16 @@
 
 — Plato, *The Republic*
 
+> "For the things we have to learn before we can do them, we learn by doing them." 
+
+— Aristotle, *The Nicomachean Ethics*
+
 # Table of Contents
 
 1. [Purpose](#purpose)
 1. [Program Overview](#program-overview)
 1. [Why Mentor](#why-contribute-as-a-mentor)
-1. [Clojure Learners](#clojure-learners)
+1. [Expectations](#expectations)
 1. [Clojure Mentors](#clojure-mentors)
 1. [Sign Up](#sign-up)
 
@@ -23,16 +27,18 @@ We believe if there are more Clojure developers in the world, more material valu
 # Program Overview
 
 - "Learners" — those who have minimal Clojure experience — will partner with each other. For the first iterations, Learners are expected to have at least one synchronous video call / pair programming session per week with their partner.
-- "Mentors" — those who have experience programming Clojure and mentoring others — will be placed with a pair of Learners. Mentors are expected to answer technical and professional questions from the partners asynchronously.
+- "Mentors" — those who have experience programming Clojure and mentoring others — will be placed with a pair of Learners. Mentors are expected to answer technical and professional questions from the Learner partners asynchronously.
+- "School Builders" — those who are dedicating a non-trivial amount of time to "building the school in which to learn". School Builders are expected to communicate with Learners and Mentors and use this feedback to help build the program. 
 - "Curriculum" — the first cohorts of this program will follow the resources and material in [Onboarding for New Clojurians](https://www.notion.so/Onboarding-for-New-Clojurians-b34b38f30902448cae68afffa02425c1). The goals are:
     - Completing 100 problems on 4clojure.
     - Working through Clojure from the Ground Up, completing exercises.
     - Working through Brave Clojure, completing exercises.
-- The program will culminate in the Learners working together to merge a Pull Request addressing an Athens issue tagged "good first issue".
+- These goals should be adjusted for more advanced Learners.
+- The program will culminate in the Learners working together to merge a Pull Request addressing an Athens issue. See [Expectations](#expectations) in the case that there are no good issues to work on.
 - Learners are encouraged to blog or Tweet about their experience learning Clojure, so as to get more people interested in the joy of Clojure programming.
 - Learners are encouraged to create and refine Clojure learning material.
-  - Material could be appended to the current markdown file ([example](https://github.com/aphyr/distsys-class)). This content would evolve, each generation adding and refining their own learnings. 
-  - Material could be learners making their own Clojure Koans for future learners. 
+  - Material could be an outline of material learned ([example](https://github.com/aphyr/distsys-class)). This content would evolve, each generation adding and refining their own learnings. 
+  - Material could be Learners making their own Clojure Koans for future learners. 
   - Material could be video content showing examples of partner learning exercises.
   - Material could be learning maps and guides such as [Onboarding for new Clojurians](https://www.notion.so/athensresearch/Onboarding-for-New-Clojurians-b34b38f30902448cae68afffa02425c1).
   - Ultimately, everyone learns differently. A plurality of content that hopefully evolves and builds off of other resources will support the unique learning styles of this world.
@@ -52,6 +58,26 @@ As a ClojureFam mentor, you have the chance to connect personally to motivated p
 If you weren't aware, Roam Research is a note-taking app for "networked thought", built with Clojurescript and Datascript. It is currently the hottest startup in Silicon Valley. Because of scalability issues, they closed their beta, effectively leaving tens of thousands of users eagerly waiting outside the gates. Athens is an open-source project that is inspired by Roam.
 
 The people using these platforms and technologies are not random people. The users of these apps are hungry learners and auto-didacts who want to create and share knowledge. Many have non-trivial programming experience and work at top tier startups and corporations in Silicon Valley. They simply haven't used Clojure before. This is all to say that ClojureFam could be a great recruiting pipeline for your company :)
+
+# Expectations
+
+> "Ask not what the Clojure community can do for you — ask what you can do for the Clojure community." 
+
+- For Learners:
+    - Spend at least 5 weeks in the program with your Learner partner.
+    - Be proactive in communications.
+    - Be prepared to make revisions to code before a successful commit. The bar for quality of contributions may be high.
+    - There may be changes in the Athens tech stack. Please remember that this is a new project in a new organization.
+    - The number of issues that you will be able to work on may vary. In fact, at times there may be more demand for issues than available issues to work on. In this case, be prepared to find other ways to contribute to Athens or other open source Clojure projects.
+    - When choosing an issue:
+    1. communicate about the issue
+    2. create a branch and a WIP pull request
+    3. ask for feedback
+    
+- For Mentors:
+    - Spend at least 5 weeks with your Learners.
+    - Make sure the team has a focused set of goals. A Learner that "just wants to contribute to Athens" may need help in finding more specific ways to contribute.
+    - Questions are almost always better than directions. Socrates showed us the way. 
 
 # Clojure Mentors
 

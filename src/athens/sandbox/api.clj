@@ -64,13 +64,22 @@
 (comment
   (current)
 
-  (require 'athens.sandbox.teodor-tasks)
-
+  ;; No tasks should be loaded
   @task/tasks
 
+  ;; Can't set track without the "track loaded"
+  (require 'athens.sandbox.teodor-tasks)
+
+  ;; Some tasks should be loaded
+  @task/tasks
+
+  ;; Set track, works
   (set-track! 'athens.sandbox.teodor-tasks)
 
   (set-task! :conj-2)
+  ;; BOOM, file locking issue. Not sure how to proceed.
+  ;; Looking at athens.sandbox.user-state/fmap might be useful, that handles
+  ;; opening and closing connections.
   (set-task! :conj-1)
 
   )

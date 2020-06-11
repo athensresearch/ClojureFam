@@ -159,7 +159,3 @@ ls123
 
 (test #'odd-numbers)
 ;; => :ok
-
-
-
-

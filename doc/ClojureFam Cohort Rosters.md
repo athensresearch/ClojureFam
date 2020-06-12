@@ -33,9 +33,17 @@
 |@tjgr|Mentor|Homer
 
 ## 3rd Cohort Roster (Group Study)
-|Name|Learner/Mentor|Team Name|
-|----|----|----|
+|Name|Learner/Mentor|
+|----|----|
 |@AstridRonja|Learner
 |@gunar|Learner
 |@killua|Learner
 |@juniusfree|Learner
+|@baibhavbista|Learner
+
+## 4th Cohort Roster (Group Study)
+|Name|Learner/Mentor|
+|----|----|
+|@vb|Learner
+|@banditelol|Learner
+|@alaq|Learner

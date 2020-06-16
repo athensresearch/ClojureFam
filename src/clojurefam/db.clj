@@ -26,6 +26,9 @@
 (defn pull-many [selector eids]
   (d/pull-many @conn selector eids))
 
+(defn entity [eid]
+  (d/entity @conn eid))
+
 (comment
   (q '[:find [(pull ?e [:task/id]) ...]
        :where [?e :task/id]])

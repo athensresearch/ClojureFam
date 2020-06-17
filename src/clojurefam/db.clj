@@ -1,15 +1,22 @@
 (ns clojurefam.db
   (:require [datascript.core :as d]))
 
-(def task-schema {:task/problem {}
-                  :task/check {}
-                  :task/id {:db/unique :db.unique/identity}})
+(def task-schema {:koan/problem {}
+                  :koan/check {}
+                  :koan/id {:db/unique :db.unique/identity}})
 
 (def solution-schema {})
 
 (def schema (merge task-schema solution-schema))
 
 (def conn (d/create-conn schema))
+
+(comment
+  ;; Reset db
+  (alter-var-root #'conn (fn [_] (d/create-conn schema)))
+
+  @conn
+  )
 
 (defn q [query & inputs]
   (apply d/q query @conn inputs))
@@ -31,12 +38,12 @@
 
 (comment
   (q '[:find [(pull ?e [:task/id]) ...]
-       :where [?e :task/id]])
+       :where [?e :koan/id]])
 
   (q '[:find ?e
-       :where [?e :task/id]])
+       :where [?e :koan/id]])
 
   (d/q  '[:find ?e
-          :where [?e :task/id]]
+          :where [?e :koan/id]]
         @conn)
   )

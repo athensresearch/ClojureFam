@@ -1,4 +1,4 @@
-# ClojureFam Cohort Rosters
+# ClojureFam Cohort and Team Rosters
 
 ## 1st Cohort Roster
 |Name|Learner/Mentor|Team Name|
@@ -48,3 +48,9 @@
 |@banditelol|Learner
 |@alaq|Learner
 |@Zeus|Learner
+
+## Individual Teams (Partner Study)
+|Name|Learner/Mentor|Team Name
+|----|----|
+|@jewiet|Learner|Aesara
+|@Gruvan|Learner|Aesara

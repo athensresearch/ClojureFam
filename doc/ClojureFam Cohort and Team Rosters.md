@@ -51,6 +51,6 @@
 
 ## Individual Teams (Partner Study)
 |Name|Learner/Mentor|Team Name
-|----|----|
+|----|----|----|
 |@jewiet|Learner|Aesara
 |@Gruvan|Learner|Aesara

@@ -1,10 +1,9 @@
-# ClojureFam Cohort Rosters
+# ClojureFam Cohort and Team Rosters
 
 ## 1st Cohort Roster
 |Name|Learner/Mentor|Team Name|
 |----|----|----|
 |@shafoo|Learner|Plato|
-|@mauriceLC92|Learner|Plato|
 |@avichalp|Mentor|Plato|
 |@robb|Learner|Pythagoras|
 |@emmy|Learner|Pythagoras|
@@ -33,13 +32,13 @@
 |@tjgr|Mentor|Homer
 
 ## 3rd Cohort Roster (Group Study)
-|Name|Learner/Mentor|
-|----|----|
-|@AstridRonja|Learner
-|@gunar|Learner
-|@killua|Learner
-|@juniusfree|Learner
-|@baibhavbista|Learner
+|Name|Learner/Mentor|Team Name
+|----|----|----|
+|@AstridRonja|Learner|Zeno
+|@gunar|Learner|Zeno
+|@killua|Learner|Zeno
+|@juniusfree|Learner|Zeno
+|@baibhavbista|Learner|Zeno
 
 ## 4th Cohort Roster (Group Study)
 |Name|Learner/Mentor|
@@ -47,3 +46,12 @@
 |@vb|Learner
 |@banditelol|Learner
 |@alaq|Learner
+|@Zeus|Learner
+|@mateican|Learner
+|@nthd3gr33|Learner
+
+## Individual Teams (Partner Study)
+|Name|Learner/Mentor|Team Name
+|----|----|----|
+|@jewiet|Learner|Aesara
+|@Gruvan|Learner|Aesara

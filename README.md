@@ -11,10 +11,10 @@ To spread joy and create wealth by first increasing the total number of Clojure 
 1. Enlightenment
 
 # Where should I go?
-1. [Program Overview](#add link)
+1. [Program Overview](https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-overview.md)
 1. [Apply to Enter Program as a Learner](https://athensresearch.typeform.com/to/zee53K)
-1. [Want to be a Mentor?](#add link)
-1. [Learning Material](#add link)
+1. [Want to be a Mentor?](https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-overview.md#why-contribute-as-a-mentor)
+1. [Onboarding for New Clojurians](https://www.notion.so/Onboarding-for-New-Clojurians-b34b38f30902448cae68afffa02425c1)
 1. [Athens Research - Open-Source Networked Thought Tools](https://github.com/athensresearch/athens)
 1. [Join our Discord](https://discord.gg/RwVjh6u)
 

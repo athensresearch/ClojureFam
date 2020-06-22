@@ -5,6 +5,7 @@
 
 (s/def :koan/problem any?)
 (s/def :koan/check ifn?)
+(s/def :koan/description string?)
 (s/def :koan/id keyword?)
 
 (s/def ::koan

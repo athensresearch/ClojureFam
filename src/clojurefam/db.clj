@@ -3,7 +3,7 @@
 
 (def task-schema {:koan/problem {}
                   :koan/check {}
-                  :koan/description ""
+                  :koan/description {}
                   :koan/id {:db/unique :db.unique/identity}})
 
 (def solution-schema {})

@@ -4,8 +4,6 @@
 |----|----|----|
 |@shafoo|20200522|20200622|
 |@gunar|20200615|20200619|
-|@robb|Learner|Pythagoras|
-|@emmy|Learner|Pythagoras|
 
 # Links to Contributions
 

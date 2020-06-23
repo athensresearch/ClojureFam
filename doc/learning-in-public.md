@@ -1,16 +1,16 @@
 # Learn in Public Initiative
 
-Write blogs and guides and walkthroughs.
-   Make video tutorials or stream on Twitch. 
-      Speak at meetups and conferences. Tweet.
+Write blogs and guides and walkthroughs.  
+&nbsp;&nbsp;&nbsp;Make video tutorials or stream on Twitch.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Speak at meetups and conferences. Tweet.  
 
-Start your own newsletter. Write about what you learn.
-   Ask and answer things on Stackoverflow. 
-      Keep yourself accountable. Inspire the community.
+Start your own newsletter. Write about what you learn.  
+&nbsp;&nbsp;&nbsp;Ask and answer things on Stackoverflow.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keep yourself accountable. Inspire the community.  
 
 # ClojureFam Learning in Public
-- [@alaq's Github](https://github.com/alaq/learning-clojure-in-public/blob/master/posts/2020-06-22.md) 
-- [@itsrainingmani's Github](https://github.com/itsrainingmani/learn-clojure-in-public/blob/master/week1/june-22-2020.md) 
+- [@alaq's Learning Clojure in Public Page](https://github.com/alaq/learning-clojure-in-public) 
+- [@itsrainingmani's Learning Clojure in Public Page](https://github.com/itsrainingmani/learn-clojure-in-public) 
 
 # Join Us
 

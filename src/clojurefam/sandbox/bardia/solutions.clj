@@ -1,9 +1,9 @@
 (ns clojurefam.sandbox.bardia.solutions
   (:require [clojurefam.koan :as koan :refer [defsolution]]
             [clojurefam.db :as db]
-            [clojurefam.sandbox.bardia.tasks :as tasks]))
+            [clojurefam.sandbox.bardia.tasks :as bardia-tasks]))
 
-(db/pull '[*] [:koan/id ::tasks/two-sum])
+(db/pull '[*] [:koan/id ::bardia-tasks/two-sum])
 
 (defn two-sum
   {:doc "One-pass hash table"}

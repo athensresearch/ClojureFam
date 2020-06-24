@@ -11,5 +11,4 @@
                  (and
                   (= [0 1] (solution [2 7 11 15] 9))
                   (= [2 3] (solution [1 2 3 4] 7))))
-   :koan/description "Given an array of integers, return the indices of the two numbers such that they add up to a specific target.
-Assume each input has exactly one solution."})
+   :koan/description "Given an array of integers, return the indices of the two numbers such that they add up to a specific target. Assume each input has exactly one solution."})

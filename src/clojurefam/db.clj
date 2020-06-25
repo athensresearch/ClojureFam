@@ -37,6 +37,10 @@
 (defn entity [eid]
   (d/entity @conn eid))
 
+(defn available-tasks []
+  (q '[:find ?id
+       :where [?k :koan/id ?id]]))
+
 (comment
   (q '[:find [(pull ?e [:task/id]) ...]
        :where [?e :koan/id]])

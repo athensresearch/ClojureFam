@@ -9,8 +9,10 @@ Start your own newsletter. Write about what you learn.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keep yourself accountable. Inspire the community.  
 
 # ClojureFam Learning in Public
-- [@alaq's Learning Clojure in Public Page](https://github.com/alaq/learning-clojure-in-public) 
-- [@itsrainingmani's Learning Clojure in Public Page](https://github.com/itsrainingmani/learn-clojure-in-public) 
+- [@alaq's Learning Clojure in Public Github repo](https://github.com/alaq/learning-clojure-in-public) 
+- [@itsrainingmani's Learning Clojure in Public Github repo](https://github.com/itsrainingmani/learn-clojure-in-public) 
+- [@banditelol's Blog about Learning Clojure in Public](https://blog.adityarp.com/learn-clojure-day-0/)
+- [@nthd3gr33's Learning Clojure in Public Github repo (https://github.com/nthd3gr33/learn-clojure-in-public)
 
 # Join Us
 

@@ -1,7 +1,7 @@
 <!--
 TODO: adjust size
 <p align="center">
-    <img src="doc/Clojure_logo.svg.png" /><br /><br />
+    <img src="doc/Clojure_logo.png" /><br /><br />
 </p>
 -->
 

@@ -19,6 +19,9 @@ TODO: adjust size
   <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/learner-commits.md">
       <img src="https://img.shields.io/badge/commits-3-yellow" alt="Number of Commits">
   </a>
+  <a href="https://discord.gg/5jVXv5A">
+      <img src="https://img.shields.io/badge/join0us-on%20Discord-blue" alt="Join us on Discord">
+  </a>
 
 # Purpose
 To spread joy and create wealth by first increasing the total number of Clojure developers in the world, and second by strengthening the relationships within the global Clojure community.

@@ -3,8 +3,6 @@
 ## 1st Cohort Roster
 |Name|Learner/Mentor|Team Name|
 |----|----|----|
-|@shafoo|Learner|Plato|
-|@avichalp|Mentor|Plato|
 |@robb|Learner|Pythagoras|
 |@emmy|Learner|Pythagoras|
 |@ticean|Mentor|Pythagoras|
@@ -41,14 +39,22 @@
 |@baibhavbista|Learner|Zeno
 
 ## 4th Cohort Roster (Group Study)
-|Name|Learner/Mentor|
-|----|----|
-|@vb|Learner
-|@banditelol|Learner
-|@alaq|Learner
-|@Zeus|Learner
-|@mateican|Learner
-|@nthd3gr33|Learner
+|Name|Learner/Mentor|Team Name
+|----|----|----|
+|@vb|Learner|Seneca
+|@banditelol|Learner|Seneca
+|@alaq|Learner|Seneca
+|@Zeus|Learner|Seneca
+|@nthd3gr33|Learner|Seneca
+
+## 5th Cohort Roster (Group Study)
+|Name|Learner/Mentor|Team Name
+|----|----|----|
+|@Nihal|Learner||
+|@jferreira|Learner||
+|@(noor A F)|Learner||
+|@pulselinux|Learner||
+|@shafoo|Learner||
 
 ## Individual Teams (Partner Study)
 |Name|Learner/Mentor|Team Name

@@ -43,3 +43,28 @@
                  (= true  (solution "anagram" "nagaram"))
                  (= false (solution "rat" "car")))
    :koan/description "Given two strings, determine if they are anagrams of each other"})
+
+
+(defkoan ::valid-parens?
+  {:koan/problem '(and
+                   (true?  (__ "()"))
+                   (true?  (__ "()[]{}"))
+                   (false? (__ "(["))
+                   (false? (__ "([)]"))
+                   (true?  (__ "{[()]}")))
+   :koan/check (fn [solution]
+                 (and
+                  (true?  (solution "()"))
+                  (true?  (solution "()[]{}"))
+                  (false? (solution "(["))
+                  (false? (solution "([)]"))
+                  (true?  (solution "{[()]}"))))
+   :koan/description "Given a string containing just the character:
+         '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+         An input string is valid if:
+         - Open brackets must be closed by the same type of brackets.
+         - Open brackets must be closed in the correct order.
+
+         An empty string is also considered valid."})
+

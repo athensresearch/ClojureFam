@@ -68,3 +68,8 @@
 
          An empty string is also considered valid."})
 
+(defkoan ::product-of-array-except-self
+  {:koan/problem '(= '(24 12 8 6) (__ [1 2 3 4]))
+   :koan/check (fn [solution]
+                 (= '(24 12 8 6) (solution [1 2 3 4])))
+   :koan/description "Given an array `nums` of `n` integers where `n` > 1, return an array output where the output at index `i` is equal to the product of all the elements of `nums` except for the element at that index"})

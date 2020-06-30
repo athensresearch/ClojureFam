@@ -1,13 +1,6 @@
-<!--
-TODO: adjust size
 <p align="center">
-    <img src="doc/Clojure_logo.svg.png" /><br /><br />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/256px-Clojure_logo.svg.png">
 </p>
--->
-
-> “The object of education is to teach us to love what is beautiful.”
-
-— Plato, *The Republic*
 
 <p align="center">
   <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-rosters.mdh">  
@@ -19,6 +12,10 @@ TODO: adjust size
   <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/learner-commits.md">
       <img src="https://img.shields.io/badge/commits-3-yellow" alt="Number of Commits">
   </a>
+
+> “The object of education is to teach us to love what is beautiful.”
+
+— Plato, *The Republic*
 
 # Purpose
 To spread joy and create wealth by first increasing the total number of Clojure developers in the world, and second by strengthening the relationships within the global Clojure community.

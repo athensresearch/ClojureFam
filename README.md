@@ -20,7 +20,7 @@ TODO: adjust size
       <img src="https://img.shields.io/badge/commits-3-yellow" alt="Number of Commits">
   </a>
   <a href="https://discord.gg/5jVXv5A">
-      <img src="https://img.shields.io/badge/join0us-on%20Discord-blue" alt="Join us on Discord">
+      <img src="https://img.shields.io/badge/join%20us%20-%20on%20Discord-blue" alt="Join us on Discord">
   </a>
 
 # Purpose

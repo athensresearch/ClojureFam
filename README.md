@@ -12,6 +12,9 @@
   <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/learner-commits.md">
       <img src="https://img.shields.io/badge/commits-3-yellow" alt="Number of Commits">
   </a>
+  <a href="https://discord.gg/5jVXv5A">
+      <img src="https://img.shields.io/badge/join%20us%20-%20on%20Discord-blue" alt="Join us on Discord">
+  </a>
 
 > “The object of education is to teach us to love what is beautiful.”
 
@@ -31,7 +34,7 @@ To spread joy and create wealth by first increasing the total number of Clojure 
 1. [Want to be a Mentor?](https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-overview.md#why-contribute-as-a-mentor)
 1. [Onboarding for New Clojurians](https://www.notion.so/Onboarding-for-New-Clojurians-b34b38f30902448cae68afffa02425c1)
 1. [Athens Research - Open-Source Networked Thought Tools](https://github.com/athensresearch/athens)
-1. [Join our Discord](https://discord.gg/RwVjh6u)
+1. [Join our Discord](https://discord.gg/5jVXv5A)
 
 # Contribute
 

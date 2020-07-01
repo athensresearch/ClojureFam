@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/256px-Clojure_logo.svg.png">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/256px-Clojure_logo.png">
 </p>
 
 <p align="center">
-  <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-rosters.mdh">  
+  <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-rosters.md">  
       <img src="https://img.shields.io/badge/cohorts-5-green" alt="Number of Cohorts">
   </a>
   <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-rosters.md">

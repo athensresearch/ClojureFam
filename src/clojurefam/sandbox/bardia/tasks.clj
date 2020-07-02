@@ -68,11 +68,13 @@
 
          An empty string is also considered valid."})
 
+
 (defkoan ::product-of-array-except-self
   {:koan/problem '(= '(24 12 8 6) (__ [1 2 3 4]))
    :koan/check (fn [solution]
                  (= '(24 12 8 6) (solution [1 2 3 4])))
    :koan/description "Given an array `nums` of `n` integers where `n` > 1, return an array output where the output at index `i` is equal to the product of all the elements of `nums` except for the element at that index"})
+
 
 (defkoan ::max-sub-array
   {:koan/problem '(= 6 (__ [-2 1 -3 4 -1 2 1 -5 4]))
@@ -82,3 +84,10 @@
          find the contiguous subarray (containing at
          least one number) which has the largest sum
          and return its sum."})
+
+
+(defkoan ::merge-intervals
+  {:koan/problem '(= [[1 6] [8 10] [15 18]] (__ [[1 3] [2 6] [8 10] [15 18]]))
+   :koan/check (fn [solution]
+                 (= [[1 6] [8 10] [15 18]] (solution [[1 3] [2 6] [8 10] [15 18]])))
+   :koan/description "Given a collection of intervals, merge all overlapping intervals"})

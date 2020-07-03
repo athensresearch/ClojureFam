@@ -91,3 +91,10 @@
    :koan/check (fn [solution]
                  (= [[1 6] [8 10] [15 18]] (solution [[1 3] [2 6] [8 10] [15 18]])))
    :koan/description "Given a collection of intervals, merge all overlapping intervals"})
+
+
+(defkoan ::group-anagrams
+  {:koan/problem '(= (__ ["eat" "tea" "tan" "ate" "nat" "bat"]) '(["eat" "tea" "ate"] ["tan" "nat"] ["bat"]))
+   :koan/check (fn [solution]
+                 (= (solution ["eat" "tea" "tan" "ate" "nat" "bat"]) '(["eat" "tea" "ate"] ["tan" "nat"] ["bat"])))
+   :koan/description "Given an array of strings, group anagrams together"})

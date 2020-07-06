@@ -98,3 +98,19 @@
    :koan/check (fn [solution]
                  (= (solution ["eat" "tea" "tan" "ate" "nat" "bat"]) '(["eat" "tea" "ate"] ["tan" "nat"] ["bat"])))
    :koan/description "Given an array of strings, group anagrams together"})
+
+
+(defkoan ::max-product-subarray
+  {:koan/problem '(and
+                   (= (__ [2 3 -2 3]) 6)
+                   (= (__ [-2 0 -1]) 0)
+                   (= (__ [-2 3 -4]) 24))
+   :koan/check (fn [soluton]
+                 (and
+                  (= (solution [2 3 -2 3] 6))
+                  (= (solution [-2 0 -1]) 0)
+                  (= (solution [-2 3 -4]) 24)))
+   :koan/description "Given an integer array `nums`,
+         find the contiguous subarray
+         within an array which has the
+         largest product."})

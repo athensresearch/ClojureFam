@@ -38,4 +38,4 @@ To spread joy and create wealth by first increasing the total number of Clojure 
 
 # Contribute
 
-Check out our [Project Board](https://github.com/athensresearch/ClojureFam/projects/1) and come talk to us in the #🏫-school-builders channel in our Discord.
+Check out our [Project Board](https://github.com/athensresearch/ClojureFam/projects/1) and come talk to us in the #🏫-school-builders channel in our [Discord](https://discord.gg/5jVXv5A).

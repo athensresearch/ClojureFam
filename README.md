@@ -21,7 +21,7 @@
 — Plato, *The Republic*
 
 # Purpose
-To spread joy and create wealth by increasing the number of Clojure developers, and strengthening relationships within the global Clojure community.
+To spread joy and create wealth by increasing the number of Clojure developers and strengthening relationships within the global Clojure community.
 
 # Goals
 1. Easier onboarding for Clojure devs

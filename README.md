@@ -29,9 +29,9 @@ To spread joy and create wealth by increasing the number of Clojure developers a
 1. Enlightenment
 
 # Where should I go?
-1. [Program Overview](https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-overview.md)
-1. [Apply to Enter Program as a Learner](https://athensresearch.typeform.com/to/zee53K)
-1. [Want to be a Mentor?](https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-overview.md#why-contribute-as-a-mentor)
+1. [Program Overview](https://github.com/athensresearch/ClojureFam/blob/master/clojurefam-overview.md)
+1. [Enter Program as a Learner](https://github.com/athensresearch/ClojureFam/blob/master/clojurefam-overview.md#join-clojurefam-as-a-learner)
+1. [Want to be a Mentor?](https://github.com/athensresearch/ClojureFam/blob/master/clojurefam-overview.md#why-to-contribute-as-a-mentor)
 1. [Onboarding for New Clojurians](https://www.notion.so/Onboarding-for-New-Clojurians-b34b38f30902448cae68afffa02425c1)
 1. [Athens Research - Open-Source Networked Thought Tools](https://github.com/athensresearch/athens)
 1. [Join our Discord](https://discord.gg/5jVXv5A)

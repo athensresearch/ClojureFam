@@ -1,9 +1,5 @@
 # Onboarding for New Clojurians
 
-- [ ] implement @alaq's recommendations per https://github.com/athensresearch/ClojureFam/issues/52
-- [ ] fix embeds
-- [ ] fix links in README.md and rest of repo
-
 Whimsical Embed: https://whimsical.com/VdBCZ1d33pzXR7H7h9uAen
 re-frame vs redux comparison table: https://www.notion.so/athensresearch/6f7a5d4684c54328ad744ddf3dabe610?v=6ad5bf55c2b747d3b77fa393b48f8c02
 

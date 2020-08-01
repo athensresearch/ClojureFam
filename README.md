@@ -7,7 +7,7 @@
       <img src="https://img.shields.io/badge/cohorts-5-green" alt="Number of Cohorts">
   </a>
   <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-rosters.md">
-      <img src="https://img.shields.io/badge/learners-31-orange" alt="Number of Learners">
+      <img src="https://img.shields.io/github/issues-raw/athensresearch/clojurefam/learner?label=learners" alt="Number of Learners">
   </a>
   <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/learner-commits.md">
       <img src="https://img.shields.io/badge/commits-3-yellow" alt="Number of Commits">

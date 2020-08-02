@@ -41,38 +41,27 @@ Whimsical Embed: https://whimsical.com/VdBCZ1d33pzXR7H7h9uAen
 Depending on how much time you have and how familiar you are with FPs/Lisps, it is recommended to spend 1-4 weeks with the following resources:
 
 -   Books and Other Text
+
     -   [Clojure from the Ground Up](https://aphyr.com/tags/Clojure-from-the-ground-up) (suggest skipping Ch 5 "Macros" for now)
     -   [Clojure for the Brave and True](https://www.braveclojure.com/clojure-for-the-brave-and-true/) (suggest skipping ch11 (core.async), ch7 (only skip the section about Macros), ch8 (Writing Macros))
+
 -   Problems and Exercises
 
     -   [4Clojure](http://www.4clojure.com/) - The problems are broken down by difficulty (Elementary, Easy, Medium and Hard). However, you might find it more useful to complete problems that match what you're reading. For example, if you've just read Chapter 4 of Clojure from the Ground Up (Sequences), give the problems that are tagged "seqs" a shot.
-    -   [Exercism](https://exercism.io/tracks/clojure)
+    -   [Exercism](https://exercism.io/tracks/clojure) is optional but a good bonus, especially if you can get a mentor to review your code.
 
--   Once you have reached Chapter 6 of Clojure from the Ground Up and you've learned about Atoms and State, you can start looking at the following resources.
+-   Once you have reached Chapter 6 of Clojure from the Ground Up and you've learned about Atoms and State, you can start looking at the following resources. Gaining some baseline knowledge about re-frame, DataScript (& DataLog) will allow you to dive into the Athens Codebase and get started much quicker!
+
     -   Intro to ClojureScript
     -   [Intro to Reagent](https://reagent-project.github.io/)
     -   [re-frame tutorial](https://purelyfunctional.tv/guide/re-frame-building-blocks)
+    -   Athens' [re-frame](./re-frame.md) and [datascript](./datascript.md) ressources
     -   [Learn DataLog Today](http://www.learndatalogtoday.org/)
--   Gaining some baseline knowledge about re-frame, DataScript (& DataLog) will allow you to dive into the Athens Codebase and get started much quicker!
 
 -   Paid Tutorial/Courses
     -   1-day Guided Workshop
         -   [Clojure by Example](https://github.com/inclojure-org/clojure-by-example) (not for absolute beginner programmers)
     -   [Getting Clojure](https://pragprog.com/titles/roclojure/) (not a free resource, but highly recommended by the community)
-
-### Questions to Evaluate Your Understanding
-
-How well do you grok Clojure? That is, do you intuit the design principles and philosophy that Clojure embodies? Return to the questions below to evaluate your progress.
-
-It should be noted that you are not expected to answer these questions perfectly as a beginner. Indeed, some of these questions may even make a Clojure sensei like Jeroen pause and think. Ultimately, there isn't one right answer. And as Socrates taught us, sometimes just sitting with the questions is good enough. 🙂
-
--   Why are there so many **core functions** in clojure.core? What affordances does this give the programmer?
--   What is a **persistent data structure**? What affordances does they give the programmer?
--   Why is **concurrency** harder in some languages than others?
--   Why is Clojure a **Lisp**? What affordances do Lisps give to programmers?
--   What affordances does Clojure's **REPL** give to the programmer?
--   Why is Clojure a **hosted language**? What affordances does this give the programmer?
--   What is **lazy evaluation**? What are **lazy sequences**? Why might laziness be useful?
 
 ### Cheatsheets
 
@@ -88,64 +77,21 @@ Here are some other assorted resources that you might find useful -
 -   [History of Clojure - Rich Hickey](https://cdn.discordapp.com/attachments/708375112537342025/738747035808825534/clojure-hopl-iv-final.pdf)
 -   [Official Clojure Rationale](https://clojure.org/about/rationale)
 
-## Re-frame
+### Questions to Evaluate Your Understanding
 
-re-frame vs redux comparison table: https://www.notion.so/athensresearch/6f7a5d4684c54328ad744ddf3dabe610?v=6ad5bf55c2b747d3b77fa393b48f8c02
+How well do you grok Clojure? That is, do you intuit the design principles and philosophy that Clojure embodies? Return to the questions below to evaluate your progress.
 
-The core backbone of the Athens frontend is re-frame. It has quite a lot of docs, and they are entertaining to read, but they are pretty long and arguably not the best way to learn about re-frame. The most important thing you need to know about re-frame is that it is a better version of react-redux.
+It should be noted that you are not expected to answer these questions perfectly as a beginner. Indeed, some of these questions may even make a Clojure sensei like Jeroen pause and think. Ultimately, there isn't one right answer. And as Socrates taught us, sometimes just sitting with the questions is good enough. 🙂
 
-Re-frame introduces a few new concepts such as `fx` and `cofx`, and it's not a pure 1:1 mapping, but as you can see redux translates very well to re-frame.
+-   Why are there so many **core functions** in clojure.core? What affordances does this give the programmer?
+-   What is a **persistent data structure**? What affordances does they give the programmer?
+-   Why is **concurrency** harder in some languages than others?
+-   Why is Clojure a **Lisp**? What affordances do Lisps give to programmers?
+-   What affordances does Clojure's **REPL** give to the programmer?
+-   Why is Clojure a **hosted language**? What affordances does this give the programmer?
+-   What is **lazy evaluation**? What are **lazy sequences**? Why might laziness be useful?
 
-| re-frame-10x | Redux DevTools     |
-| ------------ | ------------------ |
-| events       | actions/reducer    |
-| db           | store              |
-| subscribe    | mapStateToProps    |
-| dispatch     | mapDispatchToProps |
-| subs         |                    |
-| fx           |                    |
-| cofx         |                    |
-
-A better way to learn re-frame than to read docs is to get your hands dirty with code and look at real-world examples. We recommend going through the following resources.
-
-1. [re-frame tutorial by PurelyFunctional.tv](https://purelyfunctional.tv/guide/re-frame-building-blocks/) and [re-frame's documentation's about the data loop](https://day8.github.io/re-frame/a-loop/)
-
-    At this point you should try to build something of your own. It can be a small re-frame application that does one thing and is ideally something you would use (think pomodoro timer, tip calculator, weather widget, etc.). For examples of applications built by past learners check out - [Pomato](https://github.com/itsrainingmani/pomato) & [Hail-the-wheel](https://github.com/alaq/hail-the-wheel).
-
-2. [re-frame-10x TodoMVC](https://github.com/day8/re-frame-10x/tree/master/examples/todomvc). You can toggle the dashboard open and close with `ctrl-h`.
-3. [re-frame simple and TodoMVC](https://github.com/day8/re-frame/tree/master/examples/simple)
-4. [conduit](https://github.com/jacekschae/conduit) (ty Emmy)
-5. [status.im](https://github.com/status-im/status-react) (ty tomismi)
-6. [Blue Genes](https://github.com/intermine/bluegenes)
-
-1 is a primer on re-frame, hiccup, and reagent. Read the entire thing.
-
-2-3 are all repos you should clone, run locally, and tinker with. Seriously! **Actually experiment** with the code and see how the app changes.
-
-4 is a small example app that uses re-frame. It is pretty easy to wrap your head around.
-
-5-6 are mature real world apps that use re-frame in production at scale.
-
-## DataScript
-
-DataScript is a database engine for the frontend. It is a port of an actual backend database, Datomic. The query language DataScript and Datomic are written is Datalog. Like SQL, DataLog is a declarative, logical programming language. Unlike SQL, it leverages set-logic, which makes for very flexible queries such as recursive queries and reverse lookups.
-
-Similarly, DataScript and Datomic are very flexible engines with flexible schemas. All of this plays into the graph database that Roam/Athens is built off of. Indeed, it may be the secret sauce of this whole thing :)
-
-1. [http://www.learndatalogtoday.org/](http://www.learndatalogtoday.org/)
-2. [https://github.com/markbastian/datascript-playground/](https://github.com/markbastian/datascript-playground/)
-3. [https://docs.datomic.com/on-prem/pull.html](https://docs.datomic.com/on-prem/pull.html)
-4. [https://docs.datomic.com/on-prem/query.html](https://docs.datomic.com/on-prem/query.html)
-5. [https://docs.datomic.com/on-prem/schema.html](https://docs.datomic.com/on-prem/schema.html)
-6. [https://docs.datomic.com/on-prem/transactions.html](https://docs.datomic.com/on-prem/transactions.html)
-
-\#1 is a series of exercises to familiarize you with DataLog syntax and common operations, nothing crazy. It doesn't provide a ton of background, however, so you may want to reference the latter resources.
-
-Similar to the TodoMVC apps, you should download #2 and evaluate each expression in the REPL as you go through the code. There are a lot of examples, just pick a few.
-
-For 3-6, these are the Datomic docs that apply to DataScript as well. The others are superfluous for now.
-
-### Bonus Questions
+#### Bonus Questions
 
 -   Why do Clojurians worship Rich Hickey?
 -   Who are your favorite Clojurians?

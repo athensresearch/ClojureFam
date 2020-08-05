@@ -1,5 +1,5 @@
 ---
-name: find group
+name: Find Group
 about: Put up an issue for yourself, and make a learning group!
 title: Your Name
 labels: learner

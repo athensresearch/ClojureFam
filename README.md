@@ -4,8 +4,6 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/256px-Clojure_logo.png">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/github/issues-raw/athensresearch/clojurefam/learner?label=learners" alt="Number of Learners">
-  <img src="https://img.shields.io/github/issues-closed-raw/athensresearch/clojurefam/learner?label=learners" alt="Number of Learners">
   <a href="https://discord.gg/5jVXv5A">
       <img src="https://img.shields.io/discord/708122962422792194?label=discord&logo=Discord" alt="Join us on Discord">
   </a>
@@ -33,15 +31,7 @@ That said, take whatever you like. If you only want to use the learning material
 
 As always, if you have feedback and ideas on how we can improve, please share in our [Discord](https://discord.gg/5jVXv5A)!
 
-# Table of Contents
-
-* [Material](#material)
-* [Social Accountability](#social-accountability)
-* [Mentorships and Office Hours](#mentorships-and-office-hours)
-
----
-
-# Material
+# Learning Material
 
 TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/new?template=progress_template.md&title=YOUR+NAME+Progress).
 

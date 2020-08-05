@@ -39,18 +39,16 @@ TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/
 <summary>Long Version</summary>
 
 - Getting Help: Learning a new language can be intimidating. Especially a more avant-garde one like Clojure. But don't worry, you'll always have help!
-  - Athens Discord channels: #learning, #engineering, #learn-in-public
+  - [Athens Discord](https://discord.gg/5jVXv5A) channels: #learning, #engineering, #learn-in-public
   - [Clojurians Slack](http://clojurians.net/): #beginners, #re-frame, #datascript, etc.
   - [Clojurians Zulip](https://clojurians.zulipchat.com/)
-- IDE: One thing that you'll have to get used to if you haven't worked with Lisps/Emacs before is structural editing. This is because there are so many parens!
+- IDE: One thing that you'll have to get used to if you haven't worked with Lisps/Emacs before is structural editing. This is because there are so many parens! If you are unsure which IDE, go with VS Code or Cursive. Your text editor ideally give you hints as you type, and gives you shortcuts to easily pull docs and examples up. [Dash](https://kapeli.com/dash) is also nice for docs!
   - Popular editors and their plugins:
     - VS Code: Calva
     - Intelli-J: Cursive
-    - Emacs: CIDER
+    - Emacs: CIDER or Doom Emacs
     - Vim: Fireplace or Conjure
     - Atom: Chlorine
-    - Your text editor should give you hints as you type, and give you keybindings that easily pull docs and examples up. This is pretty important because there are so many (awesome!) functions in clojure.core, it's easy to forget their interfaces 😅.
-  - If you are a beginner, we recommend VS Code or Cursive as there is very little set up and they come bundled with a lot of tools already (paredit, formatting, linting, debugging, etc.).
   - See Athens [CONTRIBUTING.md](https://github.com/athensresearch/athens/blob/master/CONTRIBUTING.md#connecting-your-repl) for how to set up your REPL for use with the Athens Codebase.
 - REPL: the REPL is your friend! See this [video](https://vvvvalvalval.github.io/posts/what-makes-a-good-repl.html) for how REPL-driven programming makes you more productive.
 - [Athens Stack Mind Map - what to know and what not to know](https://whimsical.com/VdBCZ1d33pzXR7H7h9uAen)
@@ -61,7 +59,9 @@ TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/
   - [4Clojure](http://www.4clojure.com/) problems are broken down by difficulty (Elementary, Easy, Medium and Hard). However, you might find it more useful to complete problems that match what you're reading. For example, if you've just read Chapter 4 of Clojure from the Ground Up (Sequences), give the problems that are tagged "seqs" a shot.
   - [Exercism](https://exercism.io/tracks/clojure) is a good bonus, especially if you can get a mentor to review your code.
 - ClojureScript, Reagent, Re-frame
-  - [Intro to ClojureScript](https://clojurescript.org/guides/quick-start). ClojureScript is essentially the same as Clojure, with the exception being that your language is JavaScript and not Java. You have access to JavaScript libraries, your ClojureScript code compiles to JS. Because you are no longer using Clojure, you lose threading and concurrency.
+  - [Intro to ClojureScript](https://clojurescript.org/guides/quick-start). ClojureScript is essentially the same as Clojure, with the exception being that your hosted language is JavaScript and not Java. You have access to JavaScript libraries, your ClojureScript code compiles to JS. Because you are no longer using Clojure, you lose threading and concurrency.
+  - [Klipse cljs->js converter](http://app.klipse.tech/): JS interop can be tricky sometimes!
+  - [cljs-devtools](https://github.com/binaryage/cljs-devtools): Even though we are compiling from ClojureScript to JavaScript, we can still leverage the awesomeness of Chrome DevTools! (Sorry Firefox people, it doesn't work as well.) You can set breakpoints _in_ ClojureScript from the source tab and jump to code where errors have been thrown, just like in JavaScript! You can also print ClojureScript data structures.
   - [Intro to Reagent](https://reagent-project.github.io/). Pre-requisite: Atoms, covered by Chapter 6 of Clojure from the Ground Up
   - [Reagent Docs](https://cljdoc.org/d/reagent/reagent/1.0.0-alpha2/doc/documentation-index). Pre-requisite: Atoms
   - re-frame vs react-redux: re-frame is the frontend framework Athens uses, which overlaps heavily with redux. It's not a pure 1:1 mapping – Re-frame introduces a few new concepts such as `fx` and `cofx` – but it's quite close!
@@ -81,9 +81,6 @@ TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/
   - [re-frame examples](https://github.com/day8/re-frame/tree/master/examples) and [re-frame-10x TodoMVC](https://github.com/day8/re-frame-10x/tree/master/examples/todomvc). Clone and actually modify these apps!
   - Real-world projects: [conduit](https://github.com/jacekschae/conduit), [status.im](https://github.com/status-im/status-react), [Blue Genes](https://github.com/intermine/bluegenes)
   - Build something of your own! Pomodoro timer, calculator, etc. Projects from previous learners: [Pomato](https://github.com/itsrainingmani/pomato) & [Hail-the-wheel](https://github.com/alaq/hail-the-wheel).
-- cljs-devtools
-  - Even though we are compiling from ClojureScript to JavaScript, we can still leverage the awesomeness of Chrome DevTools! (Sorry Firefox people, it doesn't work as well.) You can set breakpoints _in_ ClojureScript from the source tab and jump to code where errors have been thrown, just like in JavaScript! But also, you can print ClojureScript data. [Check it out](https://github.com/binaryage/cljs-devtools).
-  - cljs-devtools, re-frame-10x, and the REPL will be invaluable not just for debugging your program, but also for interacting with, tinkering with, and reasoning about your program while you code.
 - DataScript: DataScript is a database engine for the frontend. It is a port of an actual backend database, Datomic. The query language DataScript and Datomic are written is Datalog. Like SQL, DataLog is a declarative, logical programming language. Unlike SQL, it leverages set-logic, which makes for very flexible queries such as recursive queries and reverse lookups. Similarly, DataScript and Datomic are very flexible engines with flexible schemas. All of this plays into the graph database that Roam/Athens is built off of. Indeed, it may be the secret sauce of this whole thing!
   - [Datascript and Datomic: Data Modeling for Heroes - Mark Bastian](https://www.youtube.com/watch?v=tV4pHW_WOrY)
   - [clojureD 2019: "How to Graph Your Data" by Paula Gearon](https://www.youtube.com/watch?v=tbVwmFBnfo4)
@@ -97,13 +94,13 @@ TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/
 - Clojure History and Motivation
     - [Effective Programs - 10 Years of Clojure - Rich Hickey](https://www.youtube.com/watch?v=2V1FtfBDsLU)
     - ["History of Clojure" paper, History of Programming Languages Conference - Rich Hickey](https://download.clojure.org/papers/clojure-hopl-iv-final.pdf)
-- Paid Tutorial/Courses
-  - [Clojure by Example](https://github.com/inclojure-org/clojure-by-example) (not for absolute beginner programmers)
-  - [Getting Clojure](https://pragprog.com/titles/roclojure/) (not a free resource, but highly recommended by the community)
 - Cheatsheets: Clojure has an extensive core library and many symbols not often found in mainstream languages.
     - [Clojure Cheatsheet](https://clojure.org/api/cheatsheet)
     - [ClojureScript Cheatsheet](https://cljs.info/cheatsheet/)
     - [ClojureDocs Quick Reference](http://clojuredocs.org/quickref)
+- Paid Tutorial/Courses
+  - [Clojure by Example](https://github.com/inclojure-org/clojure-by-example) (not for absolute beginner programmers)
+  - [Getting Clojure](https://pragprog.com/titles/roclojure/) (not a free resource, but highly recommended by the community)
 - Questions: How well do you grok Clojure? That is, do you intuit the design principles and philosophy that Clojure embodies? Some of these questions may even make a Clojure sensei pause and think. Ultimately, there isn't one right answer. And as Socrates taught us, sometimes just sitting with the questions is good enough. 🙂
     - Why are there so many **core functions** in clojure.core? What affordances does this give the programmer?
     - What is a **persistent data structure**? What affordances does they give the programmer?

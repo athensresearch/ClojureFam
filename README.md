@@ -35,107 +35,57 @@ As always, if you have feedback and ideas on how we can improve, please share in
 
 # Table of Contents
 
-- [Overview](#overview)
-  * [Material](#material)
-  * [Social Accountability](#social-accountability)
-  * [Mentorships and Office Hours](#mentorships-and-office-hours)
-- [Learning Material](#learning-material)
-  * [GitHub](#github)
-  * [Getting Help](#getting-help)
-  * [IDE](#ide)
-  * [Resources](#resources)
+* [Material](#material)
+* [Social Accountability](#social-accountability)
+* [Mentorships and Office Hours](#mentorships-and-office-hours)
 
 ---
 
-# Overview
+# Material
 
-## Material
+TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/new?template=progress_template.md&title=YOUR+NAME+Progress).
 
-TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/63).
+<details>
+<summary>Long Version</summary>
 
-Longer form below in [Learning Material](#learning-material)
-
-## Social Accountability
-
-MOOCs have a high dropout rate, somewhere between 80-95% ([1](https://keg.cs.tsinghua.edu.cn/jietang/publications/AAAI19-Feng-dropout-moocs.pdf), [2](https://warwick.ac.uk/fac/sci/dcs/people/research/csrmaj/daniel_onah_edulearn14.pdf), [3](https://www.wired.com/insights/2014/08/whats-wrong-moocs-arent-changing-game-education/)).
-
-Learning is hard, and even harder without support. But you're in luck! Many people want to learn Clojure too. What's more, Athens has a welcoming, warm community, with [Learning and Collaboration](https://github.com/athensresearch/athens/blob/master/CODE_OF_CONDUCT.md#values) as our founding values.
-
-- Create an issue for yourself on our [project board](https://github.com/athensresearch/ClojureFam/projects/3). When enough people join the board, we will kick off the group on Discord.
-- Learn in Public! Tweet, blog, or simply post in the [`#learn-in-public`](https://discord.gg/7ztV74d) channel each day you learn Clojure.
-- Hold your teammates accountable! Start a group chat, [look at their checkboxes](https://github.com/athensresearch/ClojureFam/issues/53), and consider doing pair programming sessions.
-- Learn in Public Examples:
-    - [alaq](https://github.com/alaq/learning-clojure-in-public)
-    - [itsrainingmani](https://github.com/itsrainingmani/learn-clojure-in-public)
-    - [nthd3gr33](https://github.com/nthd3gr33/learn-clojure-in-public)
-    - [ens100](https://github.com/ens100/Learning-Clojure)
-    - [jsjoeio](https://joeprevite.com/clojure-from-the-ground-up)
-
-## Mentorships and Office Hours
-
-Firstly, the broader Clojure community is extremely approachable. It's part of why we all love the language itself. I (Jeff) have never been stuck on an implementation problem for more than a day. Each time I did get stuck, I floated a question to the Clojurians Slack, and quickly got unstuck.
-
-For those questions that go deeper or broader, it can help having synchronous communication. If you and your team have these kinds of questions, or have lots of interrelated questions, use our Discord to organize office hours with a mentor.
-
-Keep in mind that the availability of office hours is largely dependent on mentors, who are all doing this voluntarily. Try to ask them tough questions that can't be easily Googled!
-
-As an aside, previous iterations of ClojureFam had fewer learners and more mentors. What we found is that this isn't scalable for mentors, and learners still dropped out, leaving their teammates alone. This is why we have less dedicated mentors and larger peer groups.
-
-# Learning Material
-
-## GitHub
-
-If you haven’t already, subscribe to the [Athens repo](https://github.com/athensresearch/athens). See if you can make sense of the commits, issues, PRs of other devs. Hopefully their comments will give you context for Clojure in the wild.
-
-## Getting Help
-
-Learning a new language can be intimidating. Especially a more avant-garde one like Clojure. But don't worry, you'll always have help! You can always ask questions in the #🧠-learning channel of our Discord or in the relevant channels of [http://clojurians.net/](http://clojurians.net/): #beginners, #re-frame, #datascript, etc.
-
-## IDE
-
-One thing that you'll have to get used to if you haven't worked with Lisps/Emacs before is structural editing. This is because there are so many parens! You'll get used to it, and eventually even really like it! The following list has popular text editors and the main plugins used with them.
-
-- VS Code: Calva
-- Intelli-J: Cursive
-- Emacs: CIDER
-- Vim: Fireplace or Conjure
-- Atom: Chlorine
-
-Your text editor should give you hints as you type, and give you keybindings that easily pull docs and examples up. This is pretty important because there are so many (awesome!) functions in clojure.core, it's easy to forget their interfaces 😅.
-
-If you are a beginner we recommend VS Code or Cursive as there is very little set up and they come bundled with a lot of tools already (paredit, formatting, linting, debugging, etc.).
-
-The Athens [CONTRIBUTING.md](https://github.com/athensresearch/athens/blob/master/CONTRIBUTING.md#connecting-your-repl) document also has some good information on how to set up your REPL for use with the Athens Codebase.
-
-One thing you will also have to adjust to is the REPL, but the REPL is your friend! See this [video](https://vvvvalvalval.github.io/posts/what-makes-a-good-repl.html) for how REPL-driven programming makes you more productive.
-
-(Windows Users: Here is a [handy guide](https://www.notion.so/Beginner-Clojure-Environment-Setup-Windows-36f70c16b9a7420da3cd797a3eb712fa) to setting up a development environment. Made by our own [Baibhav Bista](https://www.notion.so/athensresearch/Baibhav-Bista-36529ba8af8f4764ad416dd53afc7192).)
-
-## Resources
-
+- Getting Help: Learning a new language can be intimidating. Especially a more avant-garde one like Clojure. But don't worry, you'll always have help!
+  - Athens Discord channels: #learning, #engineering, #learn-in-public
+  - [Clojurians Slack](http://clojurians.net/): #beginners, #re-frame, #datascript, etc.
+  - [Clojurians Zulip](https://clojurians.zulipchat.com/)
+- IDE: One thing that you'll have to get used to if you haven't worked with Lisps/Emacs before is structural editing. This is because there are so many parens!
+  - Popular editors and their plugins:
+    - VS Code: Calva
+    - Intelli-J: Cursive
+    - Emacs: CIDER
+    - Vim: Fireplace or Conjure
+    - Atom: Chlorine
+    - Your text editor should give you hints as you type, and give you keybindings that easily pull docs and examples up. This is pretty important because there are so many (awesome!) functions in clojure.core, it's easy to forget their interfaces 😅.
+  - If you are a beginner, we recommend VS Code or Cursive as there is very little set up and they come bundled with a lot of tools already (paredit, formatting, linting, debugging, etc.).
+  - See Athens [CONTRIBUTING.md](https://github.com/athensresearch/athens/blob/master/CONTRIBUTING.md#connecting-your-repl) for how to set up your REPL for use with the Athens Codebase.
+- REPL: the REPL is your friend! See this [video](https://vvvvalvalval.github.io/posts/what-makes-a-good-repl.html) for how REPL-driven programming makes you more productive.
 - [Athens Stack Mind Map - what to know and what not to know](https://whimsical.com/VdBCZ1d33pzXR7H7h9uAen)
 - Books and Tutorials
   - [Clojure from the Ground Up](https://aphyr.com/tags/Clojure-from-the-ground-up) (suggest skipping Ch 5 "Macros" for now)
   - [Clojure for the Brave and True](https://www.braveclojure.com/clojure-for-the-brave-and-true/) (suggest skipping ch11 on core.async, ch7 section on Macros, and ch8 on Macros)
 - Problems and Exercises
-  - [4Clojure](http://www.4clojure.com/) - The problems are broken down by difficulty (Elementary, Easy, Medium and Hard). However, you might find it more useful to complete problems that match what you're reading. For example, if you've just read Chapter 4 of Clojure from the Ground Up (Sequences), give the problems that are tagged "seqs" a shot.
-  - [Exercism](https://exercism.io/tracks/clojure) is optional but a good bonus, especially if you can get a mentor to review your code.
+  - [4Clojure](http://www.4clojure.com/) problems are broken down by difficulty (Elementary, Easy, Medium and Hard). However, you might find it more useful to complete problems that match what you're reading. For example, if you've just read Chapter 4 of Clojure from the Ground Up (Sequences), give the problems that are tagged "seqs" a shot.
+  - [Exercism](https://exercism.io/tracks/clojure) is a good bonus, especially if you can get a mentor to review your code.
 - ClojureScript, Reagent, Re-frame
   - [Intro to ClojureScript](https://clojurescript.org/guides/quick-start). ClojureScript is essentially the same as Clojure, with the exception being that your language is JavaScript and not Java. You have access to JavaScript libraries, your ClojureScript code compiles to JS. Because you are no longer using Clojure, you lose threading and concurrency.
   - [Intro to Reagent](https://reagent-project.github.io/). Pre-requisite: Atoms, covered by Chapter 6 of Clojure from the Ground Up
   - [Reagent Docs](https://cljdoc.org/d/reagent/reagent/1.0.0-alpha2/doc/documentation-index). Pre-requisite: Atoms
   - re-frame vs react-redux: re-frame is the frontend framework Athens uses, which overlaps heavily with redux. It's not a pure 1:1 mapping – Re-frame introduces a few new concepts such as `fx` and `cofx` – but it's quite close!
-
-    | re-frame-10x | Redux DevTools     |
-    | ------------ | ------------------ |
-    | events       | actions/reducer    |
-    | db           | store              |
-    | subscribe    | mapStateToProps    |
-    | dispatch     | mapDispatchToProps |
-    | subs         |                    |
-    | fx           |                    |
-    | cofx         |                    |
-
+  
+        | re-frame     | react-redux        |
+        | ------------ | ------------------ |
+        | events       | actions/reducer    |
+        | db           | store              |
+        | subscribe    | mapStateToProps    |
+        | dispatch     | mapDispatchToProps |
+        | subs         |                    |
+        | fx           |                    |
+        | cofx         |                    |
+        
   - [re-frame tutorial by PurelyFunctional.tv](https://purelyfunctional.tv/guide/re-frame--building-blocks/) – primer on re-frame, hiccup, and reagent
   - [re-frame's documentation's about the data loop](https://day8.github.io/re-frame/a-loop/)
   - [re-frame examples](https://github.com/day8/re-frame/tree/master/examples) and [re-frame-10x TodoMVC](https://github.com/day8/re-frame-10x/tree/master/examples/todomvc). Clone and actually modify these apps!
@@ -176,3 +126,31 @@ One thing you will also have to adjust to is the REPL, but the REPL is your frie
 - Bonus Questions
     - Why do Clojurians worship Rich Hickey?
     - Who are your favorite Clojurians?
+</details>
+
+# Social Accountability
+
+MOOCs have a high dropout rate, somewhere between 80-95% ([1](https://keg.cs.tsinghua.edu.cn/jietang/publications/AAAI19-Feng-dropout-moocs.pdf), [2](https://warwick.ac.uk/fac/sci/dcs/people/research/csrmaj/daniel_onah_edulearn14.pdf), [3](https://www.wired.com/insights/2014/08/whats-wrong-moocs-arent-changing-game-education/)).
+
+Learning is hard, and even harder without support. But you're in luck! Many people want to learn Clojure too. What's more, Athens has a welcoming, warm community, with [Learning and Collaboration](https://github.com/athensresearch/athens/blob/master/CODE_OF_CONDUCT.md#values) as our founding values.
+
+- Create an issue for yourself on our [project board](https://github.com/athensresearch/ClojureFam/projects/3). When enough people join the board, we will kick off the group on Discord.
+- Learn in Public! Tweet, blog, or simply post in the [`#learn-in-public`](https://discord.gg/7ztV74d) channel each day you learn Clojure.
+- Hold your teammates accountable! Start a group chat, [look at their checkboxes](https://github.com/athensresearch/ClojureFam/issues/53), and consider doing pair programming sessions.
+- Learn in Public Examples:
+    - [alaq](https://github.com/alaq/learning-clojure-in-public)
+    - [itsrainingmani](https://github.com/itsrainingmani/learn-clojure-in-public)
+    - [nthd3gr33](https://github.com/nthd3gr33/learn-clojure-in-public)
+    - [ens100](https://github.com/ens100/Learning-Clojure)
+    - [jsjoeio](https://joeprevite.com/clojure-from-the-ground-up)
+
+# Mentorships and Office Hours
+
+Firstly, the broader Clojure community is extremely approachable. It's part of why we all love the language itself. I (Jeff) have never been stuck on an implementation problem for more than a day. Each time I did get stuck, I floated a question to the Clojurians Slack, and quickly got unstuck.
+
+For those questions that go deeper or broader, it can help having synchronous communication. If you and your team have these kinds of questions, or have lots of interrelated questions, use our Discord to organize office hours with a mentor.
+
+Keep in mind that the availability of office hours is largely dependent on mentors, who are all doing this voluntarily. Try to ask them tough questions that can't be easily Googled!
+
+As an aside, previous iterations of ClojureFam had fewer learners and more mentors. What we found is that this isn't scalable for mentors, and learners still dropped out, leaving their teammates alone. This is why we have less dedicated mentors and larger peer groups.
+

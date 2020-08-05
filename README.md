@@ -1,11 +1,10 @@
+<h1 align="center">ClojureFam</h1>
+
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/256px-Clojure_logo.png">
 </p>
 
 <p align="center">
-  <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-rosters.md">  
-      <img src="https://img.shields.io/badge/cohorts-5-green" alt="Number of Cohorts">
-  </a>
   <a href="https://github.com/athensresearch/ClojureFam/blob/master/doc/clojurefam-rosters.md">
       <img src="https://img.shields.io/github/issues-raw/athensresearch/clojurefam/learner?label=learners" alt="Number of Learners">
   </a>
@@ -13,7 +12,7 @@
       <img src="https://img.shields.io/badge/commits-3-yellow" alt="Number of Commits">
   </a>
   <a href="https://discord.gg/5jVXv5A">
-      <img src="https://img.shields.io/badge/join%20us%20-%20on%20Discord-blue" alt="Join us on Discord">
+      <img src="https://img.shields.io/discord/708122962422792194?label=discord&logo=Discord" alt="Join us on Discord">
   </a>
 
 > “The object of education is to teach us to love what is beautiful.”
@@ -22,15 +21,15 @@
 
 # Purpose
 
-To spread joy and create wealth by increasing the number of Clojure developers and strengthening relationships within the global Clojure community.
+ClojureFam is a learning program for those who want to get a taste of Clojure(Script) and Datascript, two of the most powerful and elegant technologies that exist today.
 
-# Goals
+By understanding ClojureScript, a functional, immutable Lisp, and DataScript, a Semantic Web-inspired, set-based graph database, you will not only level up as a developer, you will also understand the ideas and architecture behind networked Tools for Thought like Roam, LogSeq, and Athens.
 
-1. Easier onboarding for Clojure devs
-1. Easier onboarding for Athens contributors
-1. Enlightenment
+Learners are assumed to have no Clojure or functional programming experience.
 
-# Table of content
+By the end, through recommended resources, study groups, and mentorships and office hours, learners merge code into the [Athens](https://github.com/athensresearch/athens) codebase, becoming a Contributor and gaining access to Contributor-only channels.
+
+# Table of Contents
 
 1. [Program Overview](#program-overview)
 1. [Onboarding](#onboarding)
@@ -50,10 +49,6 @@ If you are brand-new to Clojure, we suggest that you follow the resources and ma
 - The program will culminate in the Learners working together to merge at least one Pull Request addressing an Athens issue.
 - Each Learner will define their own checkpoints by submitting an issue to track their progress on the [ClojureFam Progress Board](https://github.com/athensresearch/ClojureFam/projects/2).
 - Learners are encouraged to blog or Tweet about their experience learning Clojure, so as to get more people interested in the joy of Clojure programming. In fact, there is an ongoing initiative to [Learn Clojure in Public](#learn-in-public-initiative).
-- Try to align yourself with the overall goals of this program:
-  - Easier onboarding for Clojure devs
-  - Easier onboarding for Athens contributors
-  - Enlightenment
 - As for Mentors: we tried to have Mentors for all Learners. This turned out to be unscalable. The number of new developers is increasing at a much higher rate than the number of senior Clojure developers. Because of this, we are currently prioritizing Learners who are contributing to the Athens source code to get any new Mentors that enter our program.
 
 ## Expectations for Learners

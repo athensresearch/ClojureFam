@@ -25,3 +25,14 @@ title: YOUR NAME Progress
 - [ ] Chapters 3-4
 - [ ] Chapters 5-6
 - [ ] Chapters 10
+
+## ClojureScript, Reagent, re-frame
+
+- [ ] build an app with plain hiccup and JS interop
+- [ ] build an app with reagent
+- [ ] build an app with re-frame
+
+## DataScript
+
+- [ ] complete http://learndatalogtoday.org/
+- [ ] build an app with datascript

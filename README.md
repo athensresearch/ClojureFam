@@ -133,7 +133,7 @@ Learning is hard, and even harder without support. But you're in luck! Many peop
 
 # Mentorships and Office Hours
 
-Firstly, the broader Clojure community is extremely approachable. It's part of why we all love the language itself. I (Jeff) have never been stuck on an implementation problem for more than a day. Each time I did get stuck, I floated a question to the Clojurians Slack, and quickly got unstuck.
+Firstly, the broader Clojure community is extremely approachable. It's part of why we all love the language itself. The Clojurians Slack is one of the best places to get questions answered.
 
 For those questions that go deeper or broader, it can help having synchronous communication. If you and your team have these kinds of questions, or have lots of interrelated questions, use our Discord to organize office hours with a mentor.
 

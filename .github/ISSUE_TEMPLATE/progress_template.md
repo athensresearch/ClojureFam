@@ -4,15 +4,17 @@ about: Track progress for yourself or your team!
 title: YOUR NAME Progress
 ---
 
-*(Note: This can be used as an individual issue template or commented multiple times for each person on a [group issue](https://github.com/athensresearch/ClojureFam/issues/53).)*
-
-## Clojure from the Ground Up
+<details>
+<summary>Clojure from the Ground Up</summary>
 
 - [ ] Chapters 1-3
 - [ ] Chapters 4, 6
 - [ ] Chapters 7, 8, 10
 
-## 4Clojure
+</details>
+
+<details>
+<summary>4Clojure</summary>
 
 - [ ] 20 problems
 - [ ] 40 problems
@@ -20,19 +22,30 @@ title: YOUR NAME Progress
 - [ ] 80 problems
 - [ ] 100 problems
 
-## Clojure for the Brave and True
+</details>
+
+<details>
+<summary>Clojure for the Brave and True</summary>
 
 - [ ] Chapters 3-4
 - [ ] Chapters 5-6
 - [ ] Chapters 10
 
-## ClojureScript, Reagent, re-frame
+</details>
+
+<details>
+<summary>ClojureScript, Reagent, re-frame</summary>
 
 - [ ] build an app with plain hiccup and JS interop
 - [ ] build an app with reagent
 - [ ] build an app with re-frame
 
-## DataScript
+</details>
+
+<details>
+<summary>DataScript</summary>
 
 - [ ] complete http://learndatalogtoday.org/
 - [ ] build an app with datascript
+
+</details>

@@ -64,6 +64,7 @@ TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/
   - [cljs-devtools](https://github.com/binaryage/cljs-devtools): Even though we are compiling from ClojureScript to JavaScript, we can still leverage the awesomeness of Chrome DevTools! (Sorry Firefox people, it doesn't work as well.) You can set breakpoints _in_ ClojureScript from the source tab and jump to code where errors have been thrown, just like in JavaScript! You can also print ClojureScript data structures.
   - [Intro to Reagent](https://reagent-project.github.io/). Pre-requisite: Atoms, covered by Chapter 6 of Clojure from the Ground Up
   - [Reagent Docs](https://cljdoc.org/d/reagent/reagent/1.0.0-alpha2/doc/documentation-index). Pre-requisite: Atoms
+  - [learnreagent.com](https://www.learnreagent.com/), [learnreframe.com](https://www.learnreframe.com/) for code comparisons
   - re-frame vs react-redux: re-frame is the frontend framework Athens uses, which overlaps heavily with redux. It's not a pure 1:1 mapping – Re-frame introduces a few new concepts such as `fx` and `cofx` – but it's quite close!
   
         | re-frame     | react-redux        |

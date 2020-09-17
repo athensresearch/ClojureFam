@@ -60,6 +60,7 @@ TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/
   - [Exercism](https://exercism.io/tracks/clojure) is a good bonus, especially if you can get a mentor to review your code.
 - ClojureScript, Reagent, Re-frame
   - [Intro to ClojureScript](https://clojurescript.org/guides/quick-start). ClojureScript is essentially the same as Clojure, with the exception being that your hosted language is JavaScript and not Java. You have access to JavaScript libraries, your ClojureScript code compiles to JS. Because you are no longer using Clojure, you lose threading and concurrency.
+  - [js->cljs synonyms](https://kanaka.github.io/clojurescript/web/synonym.html): Translations from JavaScript
   - [Klipse cljs->js converter](http://app.klipse.tech/): JS interop can be tricky sometimes!
   - [cljs-devtools](https://github.com/binaryage/cljs-devtools): Even though we are compiling from ClojureScript to JavaScript, we can still leverage the awesomeness of Chrome DevTools! (Sorry Firefox people, it doesn't work as well.) You can set breakpoints _in_ ClojureScript from the source tab and jump to code where errors have been thrown, just like in JavaScript! You can also print ClojureScript data structures.
   - [Intro to Reagent](https://reagent-project.github.io/). Pre-requisite: Atoms, covered by Chapter 6 of Clojure from the Ground Up

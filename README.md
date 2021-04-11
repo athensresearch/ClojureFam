@@ -21,7 +21,7 @@ By understanding ClojureScript, a functional, immutable Lisp, and DataScript, a 
 
 Learners are assumed to have **no Clojure or functional programming experience.**
 
-Learners complete the program when they merge code into the [Athens](https://github.com/athensresearch/athens) codebase, becoming a Contributor and gaining access to [Contributor-only channels](https://github.com/athensresearch/athens/blob/master/CONTRIBUTING.md).
+Learners complete the program when they merge code into the [Athens](https://github.com/athensresearch/athens) codebase, becoming a Contributor and gaining access to [Contributor-only channels](https://athensresearch.gitbook.io/handbook/contributing).
 
 The program consists of 1) curated learning material, 2) social accountability via #learninpublic and peer-to-peer study, 3) and mentorships and office hours with experienced Clojurians.
 
@@ -49,7 +49,7 @@ TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/
     - Emacs: CIDER or Doom Emacs
     - Vim: Fireplace or Conjure
     - Atom: Chlorine
-  - See Athens [CONTRIBUTING.md](https://github.com/athensresearch/athens/blob/master/CONTRIBUTING.md#connecting-your-repl) for how to set up your REPL for use with the Athens Codebase.
+  - See Athens [CONTRIBUTING.md](https://athensresearch.gitbook.io/handbook/athens/development) for how to set up your REPL for use with the Athens Codebase.
 - REPL: the REPL is your friend! See this [video](https://vvvvalvalval.github.io/posts/what-makes-a-good-repl.html) for how REPL-driven programming makes you more productive.
 - [Athens Stack Mind Map - what to know and what not to know](https://whimsical.com/VdBCZ1d33pzXR7H7h9uAen)
 - Books and Tutorials
@@ -122,7 +122,7 @@ TLDR: This [issue template](https://github.com/athensresearch/ClojureFam/issues/
 
 MOOCs have a high dropout rate, somewhere between 80-95% ([1](https://keg.cs.tsinghua.edu.cn/jietang/publications/AAAI19-Feng-dropout-moocs.pdf), [2](https://warwick.ac.uk/fac/sci/dcs/people/research/csrmaj/daniel_onah_edulearn14.pdf), [3](https://www.wired.com/insights/2014/08/whats-wrong-moocs-arent-changing-game-education/)).
 
-Learning is hard, and even harder without support. But you're in luck! Many people want to learn Clojure too. What's more, Athens has a welcoming, warm community, with [Learning and Collaboration](https://github.com/athensresearch/athens/blob/master/CODE_OF_CONDUCT.md#values) as our founding values.
+Learning is hard, and even harder without support. But you're in luck! Many people want to learn Clojure too. What's more, Athens has a welcoming, warm community, with [Learning and Collaboration](https://athensresearch.gitbook.io/handbook/code-of-conduct#values) as our founding values.
 
 - Create an issue for yourself on our [project board](https://github.com/athensresearch/ClojureFam/projects/3). When enough people join the board, we will kick off the group on Discord.
 - Learn in Public! Tweet, blog, or simply post in the [`#learn-in-public`](https://discord.gg/7ztV74d) channel each day you learn Clojure.

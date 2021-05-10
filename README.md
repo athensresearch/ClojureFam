@@ -1,3 +1,6 @@
+*5/10/2021 Update*
+All Clojurefam docs have been moved to https://athensresearch.gitbook.io/handbook/school-of-athens/clojurefam. Go there for the latest information while this repo is being repurposed/redesigned to accomodate more types of learners.
+
 <h1 align="center">ClojureFam</h1>
 
 <p align="center">
